@@ -1,0 +1,13 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="manifest" href="/manifest.webmanifest"><link rel="icon" href="/icon.svg"><link rel="apple-touch-icon" href="/icon.svg"><meta name="theme-color" content="#111111"><meta name="apple-mobile-web-app-capable" content="yes"><title>Gym Tracker</title>
+<style>
+:root{--bg:#fff;--fg:#111;--c:#f1f1f1;--ac:#e8590c;color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root{--bg:#111;--fg:#eee;--c:#222}}
+*{box-sizing:border-box}body{margin:0;font:16px system-ui,sans-serif;background:var(--bg);color:var(--fg);padding-bottom:80px}
+.w{max-width:520px;margin:auto;padding:12px}.card{background:var(--c);border-radius:12px;padding:10px;margin:8px 0}
+.row{display:flex;gap:6px;align-items:center;margin:4px 0}.row>input,.row>select{min-width:0;flex:1}
+input,select,button{font:inherit;color:var(--fg);background:var(--bg);border:1px solid #8886;border-radius:8px;padding:8px}
+button.p{background:var(--ac);color:#fff;border:0}small{opacity:.7}h2,h3{margin:8px 0}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--c);padding-bottom:env(safe-area-inset-bottom)}
+nav button{flex:1;border:0;border-radius:0;background:none;padding:14px 0}nav .on{color:var(--ac);font-weight:700}
+.bars{display:flex;align-items:flex-end;gap:4px;height:90px}.bars div{flex:1;background:var(--ac);border-radius:3px 3px 0 0;min-height:2px}
+</style></head><body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body></html>
